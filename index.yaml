@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 2.332.1
-    created: "2022-03-24T13:19:22.678476+09:00"
+    created: "2022-03-24T13:39:25.605735+09:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -33,6 +33,6 @@ entries:
     - https://github.com/bitnami/bitnami-docker-jenkins
     - https://jenkins.io/
     urls:
-    - jenkins-9.0.9.tgz
+    - jenkins-9.1.9.tgz
     version: 9.0.9
-generated: "2022-03-24T13:19:22.674643+09:00"
+generated: "2022-03-24T13:39:25.599588+09:00"
