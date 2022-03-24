@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 2.332.1
-    created: "2022-03-24T13:39:25.605735+09:00"
+    created: "2022-03-24T14:20:32.450279+09:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -15,7 +15,7 @@ entries:
     description: Jenkins is an open source Continuous Integration and Continuous Delivery
       (CI/CD) server designed to automate the building, testing, and deploying of
       any software project.
-    digest: 01324052b07f2fb101487f4cb9c267c71b7abfa79a56b1316527a7b02fe8b37c
+    digest: ec01c8c1094caad4551786ca6b6b1500111e72e93f1cd335f68ab25e4b9dc303
     home: https://github.com/bitnami/charts/tree/master/bitnami/jenkins
     icon: https://bitnami.com/assets/stacks/jenkins/img/jenkins-stack-220x234.png
     keywords:
@@ -33,6 +33,40 @@ entries:
     - https://github.com/bitnami/bitnami-docker-jenkins
     - https://jenkins.io/
     urls:
-    - jenkins-9.1.9.tgz
-    version: 9.0.9
-generated: "2022-03-24T13:39:25.599588+09:00"
+    - jenkins-9.1.1.tgz
+    version: 9.1.1
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 2.332.1
+    created: "2022-03-24T14:20:32.444712+09:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Jenkins is an open source Continuous Integration and Continuous Delivery
+      (CI/CD) server designed to automate the building, testing, and deploying of
+      any software project.
+    digest: 985e11e851a5fc009f599117d42adb2d8b9a6d195289acfa2c698c3df4285aac
+    home: https://github.com/bitnami/charts/tree/master/bitnami/jenkins
+    icon: https://bitnami.com/assets/stacks/jenkins/img/jenkins-stack-220x234.png
+    keywords:
+    - jenkins
+    - ci
+    - cd
+    - http
+    - web
+    - application
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: jenkins
+    sources:
+    - https://github.com/bitnami/bitnami-docker-jenkins
+    - https://jenkins.io/
+    urls:
+    - jenkins-9.1.0.tgz
+    version: 9.1.0
+generated: "2022-03-24T14:20:32.431323+09:00"
